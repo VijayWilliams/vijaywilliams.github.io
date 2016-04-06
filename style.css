@@ -21,7 +21,7 @@ html, body, div, span, header, footer, nav, menu, article, aside, section, figur
   background-image: url("images/image.jpg");  
   background-repeat: no-repeat;  
   background-attachment: fixed;  
-  background-position: right center;  
+  background-position: center center;  
   font-style: normal;  
   font-weight: normal;
 }
@@ -304,5 +304,9 @@ hr {
   border-right-color: rgb(255, 255, 255);  
   border-bottom-color: rgb(255, 255, 255);  
   border-left-color: rgb(255, 255, 255);
+}
+
+#hh {  -webkit-background-clip: border-box;
+  background-clip: border-box;
 }
 
